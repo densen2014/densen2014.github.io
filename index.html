@@ -1,3 +1,74 @@
+<!DOCTYPE html>
 <html>
-  <h3>SSSSSSSSS</h3>
- </html> 
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, shrink-to-fit=no, initial-scale=1.0001, minimum-scale=1.0001, maximum-scale=1.0001, user-scalable=no">
+    <meta content="densen,BlazorPOS,中讯科技bootstrap,blazor,wasm,webassembly,UI,netcore,web,assembly" name="Keywords">
+    <title>BlazorPOS.wasm 演示版</title>
+    <base href="/" />
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link href="css/app.css" rel="stylesheet" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" href="icon-512.png">
+    <link href="manifest.json" rel="manifest" />
+    <link rel="stylesheet" href="style/loading.css">
+    <link rel="stylesheet" href="_content/BootstrapBlazor/lib/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="_content/BootstrapBlazor/lib/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="_content/BootstrapBlazor/lib/chartjs/Chart.min.css">
+    <link rel="stylesheet" href="_content/BootstrapBlazor/lib/summernote/summernote-bs4.min.css">
+    <link rel="stylesheet" href="_content/BootstrapBlazor/lib/overlayscrollbars/OverlayScrollbars.min.css">
+    <link rel="stylesheet" href="_content/BootstrapBlazor/css/bootstrap.blazor.css">
+    <link rel="stylesheet" href="_content/BlazorPOS.Simple.Shared/lib/highlight/vs.css">
+    <link rel="stylesheet" href="_content/BlazorPOS.Simple.Shared/css/site.css">
+
+</head>
+
+<body class="overflow-hidden">
+    <app></app>
+
+    <div class="loader" id="loading">
+        <div class="logo">
+            <div class="one common"></div>
+            <div class="two common"></div>
+            <div class="three common"></div>
+            <div class="four common"></div>
+            <div class="five common"></div>
+            <div class="six common"></div>
+            <div class="seven common"></div>
+            <div class="eight common"></div>
+        </div>
+        <div class="intro">
+            <img src="_content/BlazorPOS.Simple.Shared/images/brand.png" />
+            <span>精彩即将呈现</span>
+        </div>
+        <div class="bar">
+            <div class="progress"></div>
+        </div>
+    </div>
+
+    <div id="blazor-error-ui">
+        <environment include="Staging,Production">
+            An error has occurred. This application may no longer respond until reloaded.
+        </environment>
+        <environment include="Development">
+            An unhandled exception has occurred. See browser dev tools for details.
+        </environment>
+        <a href="" class="reload">Reload</a>
+        <a class="dismiss"><i class="fa fa-times"></i></a>
+    </div>
+
+    <script src="_framework/blazor.webassembly.js"></script>
+    <script>navigator.serviceWorker.register('service-worker.js');</script>
+    <script src="_content/BootstrapBlazor/lib/jquery/jquery.min.js"></script>
+    <script src="_content/BootstrapBlazor/lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="_content/BootstrapBlazor/lib/chartjs/Chart.bundle.min.js"></script>
+    <script src="_content/BootstrapBlazor/lib/summernote/summernote-bs4.min.js"></script>
+    <script src="_content/BootstrapBlazor/lib/summernote/summernote-zh-CN.min.js"></script>
+    <script src="_content/BootstrapBlazor/lib/overlayscrollbars/jquery.overlayScrollbars.min.js"></script>
+    <script src="_content/BootstrapBlazor/js/bootstrap.blazor.js"></script>
+    <script src="_content/BlazorPOS.Simple.Shared/lib/highlight/highlight.min.js"></script>
+    <script src="_content/BlazorPOS.Simple.Shared/js/common.js"></script>
+</body>
+
+</html>
