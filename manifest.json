@@ -1,10 +1,10 @@
 {
-  "name": "BlazorPOS.wasm",
-  "short_name": "点餐",
+  "name": "Demo.Wasm",
+  "short_name": "Demo.Wasm",
   "start_url": "./",
   "display": "standalone",
   "background_color": "#ffffff",
-  "theme_color": "#3d1d03",
+  "theme_color": "#03173d",
   "icons": [
     {
       "src": "icon-512.png",
